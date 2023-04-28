@@ -5,7 +5,7 @@ import mysql.connector
 midb = mysql.connector.connect(
     host='localhost',
     user='sergiorobledo',
-    password='28821243',
+    password='',
     database='koos'
 )
 
@@ -68,8 +68,7 @@ esquemaDB = [
     'resultadoQoL'
 ]
 
-#array to string para reemplazar en la consulta a sql "instert into Usuario(es la tabla)(edad, nombre..estructura de tabla"
-# tomar el esquema de la base de datos y retornar un string que se pueda usar en el insert
+
 
 def array_to_string(array):
     result = ''
